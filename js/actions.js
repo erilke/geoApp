@@ -4,6 +4,7 @@ var fn = {
 	},
 
 	init: function (){
+		alert("init")
 		geo.getPosition();
 	},
 
