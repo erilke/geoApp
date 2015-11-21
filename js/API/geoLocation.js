@@ -5,9 +5,9 @@ var geo = {
 	},
 
 	success: function(pos){
-		 alert('Latitude: ' + pos.coords.latitude + '\n' + 'Longitude: ' + pos.coords.longitude + '\n');
+		// alert('Latitude: ' + pos.coords.latitude + '\n' + 'Longitude: ' + pos.coords.longitude + '\n');
 
-		//fn.drawMap(pos.coords.latitude,pos.coords.longitude);
+		fn.drawMap(pos.coords.latitude,pos.coords.longitude);
 	},
 
 	error: function(err){
